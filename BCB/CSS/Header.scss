@@ -1,0 +1,56 @@
+@mixin back {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.slide{
+    height:450px;
+    width:600px;
+    background-image: url('Pictures/Four.jpg');
+    margin-left:10px;
+    border-radius:5px;
+    border:3px dashed black;
+    @include back;
+    animation-name:meraj;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+    animation-duration: 100s;
+    animation-direction: alternate;
+}
+.notice{
+    height:450px;
+    width:400px;
+    background:whitesmoke;
+    border:2px solid black;
+    margin-left:10px;
+}
+@keyframes meraj{
+    0%{
+        background-image: url('Pictures/Four.jpg');
+        @include back;
+    }
+    20%{
+        background-image: url('Pictures/One.jpg');
+        @include back; 
+    }
+    40%{
+        background-image: url('Pictures/Foot.jpg');
+        @include back; 
+        background-size:100%; 
+    }
+    60%{
+        background-image: url('Pictures/Three.jpg');
+        @include back;
+        background-size:100%; 
+    }
+    80%{
+        background-image: url('Pictures/Five.jpg');
+        @include back; 
+    }
+    100%{
+        background-image: url('Pictures/Six.jpg');
+        @include back; 
+    }
+
+}

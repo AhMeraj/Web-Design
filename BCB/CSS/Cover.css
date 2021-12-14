@@ -1,0 +1,49 @@
+.title {
+  margin-top: 80px;
+  width: 100%;
+  text-align: center;
+  text-shadow: 1px 1px white;
+  font-size: large;
+  font-weight: bold;
+  text-shadow: 2px 1px lemonchiffon;
+}
+
+.news {
+  margin-top: 10px;
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.news .top {
+  height: 150px;
+  width: 100%;
+  background-color: lavenderblush;
+  margin-top: 10px;
+}
+
+.news .top:hover {
+  background-color: skyblue;
+}
+
+.teams {
+  margin-top: 10px;
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 3px 3px solid black;
+}
+
+.teams .unit {
+  height: 250px;
+  width: 100%;
+  margin-top: 10px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.teams .unit:hover {
+  opacity: 0.9;
+}

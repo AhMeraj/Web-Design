@@ -1,0 +1,154 @@
+@media screen and (min-width: 320px) and (max-width: 500px) {
+  .slide {
+    width: 300px;
+  }
+  .notice {
+    margin-top: 10px;
+    width: 280px;
+  }
+  .news {
+    width: 300px;
+  }
+  .news .top {
+    height: 180px;
+  }
+  .teams {
+    width: 280px;
+  }
+  .events .box {
+    margin-top: 10px;
+    width: 280px;
+    height: 400px;
+  }
+  .spons {
+    width: 300px;
+  }
+  .adv {
+    width: 280px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 650px) {
+  .slide {
+    width: 450px;
+  }
+  .notice {
+    margin-top: 10px;
+    width: 400px;
+  }
+  .news {
+    width: 480px;
+  }
+  .news .top {
+    height: 180px;
+  }
+  .teams {
+    width: 450px;
+  }
+  .events .box {
+    margin-top: 10px;
+    width: 400px;
+    height: 380px;
+  }
+  .spons {
+    width: 480px;
+  }
+  .adv {
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 650px) and (max-width: 800px) {
+  .notice {
+    margin-top: 10px;
+  }
+  .news {
+    width: 580px;
+  }
+  .teams {
+    width: 450px;
+  }
+  .events .box {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .spons {
+    width: 620px;
+  }
+  .adv {
+    width: 550px;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1020px) {
+  .slide {
+    width: 390px;
+  }
+  .notice {
+    margin-top: 0px;
+    width: 380px;
+  }
+  .news {
+    width: 400px;
+  }
+  .news .top {
+    height: 150px;
+  }
+  .teams {
+    width: 350px;
+  }
+  .events .box {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 380px;
+    height: 400px;
+  }
+  .spons {
+    width: 490px;
+  }
+  .adv {
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 1500px) and (max-width: 1800px) {
+  .slide {
+    width: 750px;
+  }
+  .notice {
+    width: 600px;
+  }
+  .news {
+    width: 850px;
+  }
+  .teams {
+    width: 550px;
+  }
+  .spons {
+    width: 800px;
+  }
+  .adv {
+    width: 650px;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .slide {
+    width: 950px;
+  }
+  .notice {
+    width: 700px;
+  }
+  .news {
+    width: 1000px;
+  }
+  .teams {
+    width: 750px;
+  }
+  .spons {
+    width: 950px;
+  }
+  .adv {
+    width: 750px;
+  }
+}
